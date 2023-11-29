@@ -17,7 +17,7 @@ public class Fatura {
         this.servico = servico;
     }
 
-    public boolean atualizarPagamentoParcial(){
-        return false;
+    public boolean atualizarPagamentoParcial(double valor){
+        return true;
     }
 }

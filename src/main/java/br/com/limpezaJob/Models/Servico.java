@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Servico {
     private Imovel imovel;
-    private Funcionario funcionario;
+    private Funcionario gerente;
     private  Fatura fatura;
     private LocalDateTime dataHoraCotacao;
     private double valor;
@@ -16,7 +16,7 @@ public class Servico {
 
     public Servico(Imovel imovel, Funcionario funcionario, Fatura fatura, LocalDateTime dataHoraCotacao, double valor, LocalDateTime dataHoraExecucao) {
         this.imovel = imovel;
-        this.funcionario = funcionario;
+        this.gerente = funcionario;
         this.fatura = fatura;
         this.dataHoraCotacao = dataHoraCotacao;
         this.valor = valor;
