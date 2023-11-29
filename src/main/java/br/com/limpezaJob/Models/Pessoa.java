@@ -1,4 +1,4 @@
-package br.com.limpezaJob;
+package br.com.limpezaJob.Models;
 
 public class Pessoa {
     private String nome;

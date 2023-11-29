@@ -1,4 +1,4 @@
-package br.com.limpezaJob;
+package br.com.limpezaJob.Models;
 
 import java.util.List;
 
@@ -21,6 +21,6 @@ public class Imovel {
     }
 
     public List<Servico> visualizarHistoricoServicos(){
-        return List<Servico> listaServicos;
+        return null;
     }
 }

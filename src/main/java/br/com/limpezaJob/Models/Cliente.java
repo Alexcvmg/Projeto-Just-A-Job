@@ -1,4 +1,4 @@
-package br.com.limpezaJob;
+package br.com.limpezaJob.Models;
 
 import java.util.List;
 
