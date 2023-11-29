@@ -7,6 +7,11 @@ public class Agenda {
     private int diasDaSemanaDeTrabalho;
     private Funcionario faxineiro;
 
+    public Agenda(int diasDaSemanaDeTrabalho, Funcionario faxineiro) {
+        this.diasDaSemanaDeTrabalho = diasDaSemanaDeTrabalho;
+        this.faxineiro = faxineiro;
+    }
+
     public List<LocalDateTime> verificarDatasDisponiveis(){
         return null;
     }
