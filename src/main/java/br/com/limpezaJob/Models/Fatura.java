@@ -1,7 +1,9 @@
 package br.com.limpezaJob.Models;
 
-import java.time.LocalDateTime;
+import lombok.Data;
 
+import java.time.LocalDateTime;
+@Data
 public class Fatura {
     private double valor;
     private LocalDateTime dataEmissao;

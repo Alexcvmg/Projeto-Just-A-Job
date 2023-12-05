@@ -1,9 +1,11 @@
 package br.com.limpezaJob.Models;
 
+import lombok.Data;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+@Data
 public class Servico {
     private Imovel imovel;
     private Funcionario gerente;

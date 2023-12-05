@@ -1,7 +1,9 @@
 package br.com.limpezaJob.Models;
 
-import java.util.List;
+import lombok.Data;
 
+import java.util.List;
+@Data
 public class Cliente extends Pessoa {
     private List<Imovel> listaImoveis;
     private Imovel imovelResidencial;

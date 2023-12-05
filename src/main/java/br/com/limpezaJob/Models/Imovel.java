@@ -1,7 +1,9 @@
 package br.com.limpezaJob.Models;
 
-import java.util.List;
+import lombok.Data;
 
+import java.util.List;
+@Data
 public class Imovel {
     private Cliente cliente;
     private String logradouro;

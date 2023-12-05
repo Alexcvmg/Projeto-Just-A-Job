@@ -1,5 +1,8 @@
 package br.com.limpezaJob.Models;
 
+import lombok.Data;
+
+@Data
 abstract public class Pessoa {
     private String nome;
     private String telefone;
